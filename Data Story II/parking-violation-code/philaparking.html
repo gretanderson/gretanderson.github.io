@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parking in Philadelphia</title>
+<!--Leaflet references-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<!--Mapbox plugin-->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+
+<!--CSS styling-->
+	<style>
+		#philaMap {
+			height: 350px;
+			width: 500px;
+
+
+		}
+
+	</style>
+
+
+
+</head>
+
+<body>
+
+<!--Map setup-->
+	<div id= "philaMap"></div>
+
+<script>
+	var philaMap = L.map('philaMap').setView([39.957987, -75.162207],13);
+		
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    	maxZoom: 18,
+    	minZoom: 9,
+    	id: 'mapbox.streets-v9',
+    	accessToken: 'maxboxg1.accessToken',
+	}).addTo(philaMap);
+
+</script>
+<!--Mapbox tile call-->
+<div id='philaMap' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JldGFuZGVyc29uIiwiYSI6ImNqMHZ0aTVtMjAwNHozMnFpaW9oYmhvajAifQ.u4Cvfk_dpY-7-_GWwiQ8Fg';
+	var philaMap = new mapboxgl.Map({
+    	container: 'philaMap',
+    	style: 'mapbox://styles/mapbox/streets-v9'
+   });
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
