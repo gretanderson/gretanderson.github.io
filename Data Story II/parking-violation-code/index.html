@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parking Violations in Philadelphia</title>
+<!--Leaflet links-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+	<script src="js/leaflet.geocsv.js"></script>
+<!--Mapquest links-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+	<script src="https://www.mapquestapi.com/sdk/leaflet/v2.2/mq-map.js?key=722MGYa4YPLST2Sc1EgWqslr5wzSQAK3"></script>
+
+<!--CSS styling-->
+<style>
+	@font-face {
+		font-family:"coolevetica";
+		src:url(fonts/coolvetica/coolvetica rg.ttf);
+	}
+	@font-face {
+		font-family:"couture";
+		src:url(fonts/couture/couture-bld.otf);
+	}
+	#map {
+		display: none;
+		height:400px;
+	}
+	h1 {
+		font-family:"coolvetica",Helvetica,Arial;
+	}
+
+</style>
+</head>
+
+<body>
+<div id = 'top'></div>
+	<div id = 'left'></div>
+		<h1>The most ticketed neighborhoods in the City</h1>
+			<p></p>
+<div id = 'middle'></div>
+		<h2>Parking authority's money-making tickets</h2>
+			<p></p>
+<div id = 'bottom'></div>
+		<h3>State plates - in addition to PA - with the most violations</h3>
+
+
+
+
+
+
+
+
+
+
+<div id = 'map'>A map should appear here.</div>
+
+<!--jS-->
+<script>
+window.onload = function () {
+	L.map('map', {
+		layers:MQ.mapLayer(),
+		center: [39.9526, -75.1652],
+		zoom:11
+	});
+
+};
+
+var tile_options = {
+	subdomain: 1234,
+	attribution: 'Map data: OpenDataPhilly and MapQuest'
+};
+
+<!--//Call csv data into js-->
+
+</script>
+
+</body>
+</html>
