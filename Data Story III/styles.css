@@ -1,0 +1,225 @@
+/*WAPO font links*/
+@font-face {
+			font-family:"Franklin Bold";
+			src:url(fonts/ITCFranklinGothicStd-Med.otf);
+		}
+		@font-face {
+			font-family:"Franklin Light";
+			src:url(fonts/franklin-gothic-light.ttf);
+		}
+		@font-face {
+			font-family:"Franklin Thin";
+			src:url(fonts/FranklinITCPro-Thin.ttf);
+		}
+		
+		.webpage {
+			width:100%;
+			fill:black;
+			display:block;
+			float:middle;
+			clear:both;
+			padding:3px;
+			padding-left:5px;
+			text-align:left;
+			background-color:black;
+			font-family: "Franklin Thin",Helvetica;
+			font-size:20px;
+			font-weight: bold;
+			color:white;
+		}
+
+		#masthead {
+			background-size: 50px;
+			height:50px;
+		}
+
+		#footer {
+			background-size:70px;
+			height:80px;
+		}
+
+		h1 {
+			font-family:"Franklin Bold";
+			font-size:80px;
+			color:#E0445A;
+			float: middle;
+			text-align:center;
+			padding-bottom:none;
+
+		}
+
+		h3 {
+			font-family:"Franklin Bold", Helvetica;
+			font-size:20px;
+		}
+
+		p {
+			font-family:"Franklin Light", Helvetica;
+			font-size:18px;
+		}
+
+		#intro {
+			padding-top:none;
+			font-family:"Franklin Light", Helvetica;
+			font-size:43px;
+			text-align:center;
+		}
+
+		#article-left {
+			clear:left;
+			float:left;
+			padding-left:17%;
+			width:35%;
+		}
+
+		#article-right {
+			clear:right;
+			float:right;
+			padding-top:28px;
+			padding-right:10%;
+			width:35%;
+
+		}
+			
+		.writing {
+			font-family:"Franklin Light";
+			font-size:25px;
+		}
+
+		span {
+			font-family:"Franklin Bold", Helvetica;
+			font-size:20px;
+			color:#E0445A;
+		}
+		.narrative-title {
+			font-weight: bold;
+		}
+
+		.card {
+			display:none;
+		}
+
+		.Month text {
+			font-family:"Franklin Bold",Helvetica;
+		}
+
+		.Month tspan {
+			font-family:"Franklin Bold",Helvetica;
+		}
+
+		.Month:hover {
+			stroke: #333333;
+			stroke-width:1px;
+			cursor:pointer;
+		}
+
+		.Month.active {
+			stroke:#333333;
+			stroke-width:1.5px;
+		}
+
+		svg {
+			max-width:800px;
+			float:left;
+			margin-left:150px;
+		}
+
+		.card {
+			float:right;
+			width:300px;
+			margin-left:5px;
+			margin-top:5px;
+			margin-right:50px;
+			border:1px solid #efefef;
+			border-radius:2px;
+			font-family: "Franklin Light", Helvetica;
+			font-weight:100;
+			font-size:13px;
+			padding:10px;
+			padding-top:5px;
+		}
+
+		#year {
+			display:block;
+		}
+
+		.year-total {
+			font-size:18px;
+			color:#9e6d9d;
+		}
+
+		.year-total:hover{
+			color:#9e6d9d;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		.top {
+			margin-bottom:30px
+			padding-bottom:20px;
+		}
+
+		.graph-wrap {
+			display:block;
+			float:middle;
+			width:100%;
+			margin-top:50px;
+			clear:both;
+			border-top:1.5px solid #d5d5d5;
+			padding-top:30px;
+		}
+
+		h2 {
+			text-align:center;
+			font-family:"Franklin Bold";
+			font-size:45px;
+		}
+
+		h4 {
+			text-align:center;
+			font-family:"Franklin Light";
+			font-size:40px;
+		}
+
+		h5 {
+			font-family:"Franklin Light";
+			font-size:31px;
+			padding-bottom:2px;
+		}
+
+		#total {
+			padding-top:30px;
+			clear:both;
+		}
+
+
+		#sports{
+			display:block;
+			float:middle;
+			width:100%;
+			margin:20px;
+		}
+
+		#misc {
+			display:block;
+			float:middle;
+			width:100%;
+			margin:20px;
+		}
+
+		#kids {
+			display:block;
+			float:middle;
+			width:100%;
+			margin:20px;
+		}
+
+		.data {
+			color:#9e6d9d;
+		}
+
+		.data:hover {
+			color:#9e6d9d;
+			text-decoration:underline;
+			cursor:pointer;
+		}

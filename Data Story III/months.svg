@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Months" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 790 513" style="enable-background:new 0 0 790 513;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ECD8C0;}
+	.st1{font-family:'FranklinGothic-Medium';}
+	.st2{font-size:48px;}
+	.st3{fill:#ECBA9A;}
+	.st4{fill:#E0445A;}
+	.st5{fill:#EC8673;}
+	.st6{letter-spacing:37;}
+</style>
+<rect id="January" x="25.1" y="26.7" class="st0" width="145.5" height="145.5"/>
+<text id="Jan" transform="matrix(1 0 0 1 65.6328 117.3315)" class="st1 st2">Jan</text>
+<rect id="February" x="177.2" y="26.7" class="st0" width="145.5" height="145.5"/>
+<text id="Feb" transform="matrix(1 0 0 1 210.3047 118.3315)" class="st1 st2">Feb</text>
+<rect id="March" x="329.4" y="26.7" class="st3" width="145.5" height="145.5"/>
+<text id="March_1_" transform="matrix(1 0 0 1 340.1719 117.3315)" class="st1 st2">March</text>
+<rect id="April" x="481.5" y="26.7" class="st3" width="145.5" height="145.5"/>
+<text id="April_1_" transform="matrix(1 0 0 1 505.5811 117.3315)" class="st1 st2">April</text>
+<rect id="May" x="25.1" y="178.8" class="st4" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 56.0488 265.5767)" class="st1 st2">May</text>
+<rect id="June" x="177.2" y="178.8" class="st5" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 200.0313 264.5767)" class="st1 st2">June</text>
+<rect id="July" x="329.4" y="178.8" class="st4" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 361.2324 263.5767)" class="st1 st2">July</text>
+<rect id="August" x="481.5" y="178.8" class="st4" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 513.0996 263.5767)" class="st1 st2">Aug</text>
+<rect id="September" x="25.1" y="329.9" class="st5" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 51.4883 420.6426)" class="st1 st2">Sept</text>
+<rect id="October" x="177.2" y="329.9" class="st5" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 215.3037 420.6426)" class="st1 st2">Oct</text>
+<text transform="matrix(1 0 0 1 284.0037 420.6426)" class="st1 st2 st6"> </text>
+<rect id="November" x="329.4" y="329.9" class="st0" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 365.5313 419.6426)" class="st1 st2">Nov</text>
+<rect id="December" x="481.5" y="329.9" class="st3" width="145.5" height="145.5"/>
+<text transform="matrix(1 0 0 1 513.4365 418.6426)" class="st1 st2">Dec</text>
+</svg>
